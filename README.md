@@ -247,22 +247,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Built with [Google Agent Development Kit (ADK)](https://github.com/google/adk)
-- Powered by [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/)
+- Powered by [Gemini 2.5 Flash](https://deepmind.google/technologies/gemini/)
 - Inspired by real-world reverse logistics challenges
 
 ---
 
 ## 📧 Contact & Support
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/ReverseLoop/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/ReverseLoop/discussions)
-- **Email:** your.email@example.com
+- **Issues:** [GitHub Issues](https://github.com/ShreySharma07
+/ReverseLoop/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/ShreySharma07
+/ReverseLoop/discussions)
+- **Email:** shrey7shrey@gmail.com
 
 ---
 
 <div align="center">
 
-**Made with ♻️ by [Your Name]**
+**Made with ♻️ by [Shrey Sharma]**
 
 *Solving the reverse logistics crisis, one return at a time.*
 
