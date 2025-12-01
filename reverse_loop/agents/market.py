@@ -17,7 +17,6 @@ SESSION_ID = "session_market_01"
 MODEL_ID="gemini-2.0-flash"
 
 
-# Force API Key
 os.environ["GOOGLE_API_KEY"] = settings.GOOGLE_API_KEY
 
 class ADKMarketAgent(LlmAgent):
