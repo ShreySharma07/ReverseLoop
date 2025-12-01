@@ -73,13 +73,19 @@ class ADKVisionAgent(LlmAgent):
         try:
             path_obj = Path(image_path)
             if not path_obj.exists():
+                print(f"Error: File does not exist at {path_obj.absolute()}") 
                 return {"error": f"File not found: {image_path}"}
 
             img = Image.open(path_obj)
+            
+            # --- FIX: Handle WebP/AVIF/PNG Transparency ---
+            if img.mode in ("RGBA", "P"):
+                img = img.convert("RGB")
+
             buffer = BytesIO()
             img.save(buffer, format="JPEG")
             image_bytes = buffer.getvalue()
-            
+                        
             user_message = types.Content(
                 role="user",
                 parts=[

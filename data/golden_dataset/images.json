@@ -1,0 +1,17 @@
+[
+  {
+    "filename": "jordan_shoe.jpg",
+    "correct_decision": "RESELL",
+    "reason": "Jordan brand retains value even if used."
+  },
+  {
+    "filename": "hm_shirt.jpg",
+    "correct_decision": "RECYCLE",
+    "reason": "Fast fashion resale price < shipping cost."
+  },
+  {
+    "filename": "vintage_jacket.jpg",
+    "correct_decision": "RESELL",
+    "reason": "Vintage items have high demand despite wear."
+  }
+]

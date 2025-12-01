@@ -14,7 +14,7 @@ class ProfitCalculator:
             return Decimal("20.00")
     
     @classmethod
-    def claculate_net_profit(cls, market_price: float, weight_lbs: float) -> dict:
+    def calculate_net_profit(cls, market_price: float, weight_lbs: float) -> dict:
 
         price = Decimal(str(market_price))
 
