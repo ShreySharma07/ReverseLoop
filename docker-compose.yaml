@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  reverse-loop-app:
+    build:
+      context: .              # <--- Build Context is the ROOT (so it sees reverse_loop/)
+      dockerfile: infra/Dockerfile  # <--- File location is in INFRA
+    
+    container_name: reverse_loop_container
+    
+    ports:
+      - "8501:8501"
+    
+    env_file:
+      - .env
+    
+    # Mount the code so you can edit locally and see changes instantly
+    volumes:
+      - .:/app
+      # Exclude local venv from overriding container venv
+      - /app/.venv 
+    
+    environment:
+      - PYTHONUNBUFFERED=1
